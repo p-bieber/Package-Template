@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AB386EF5-069F-4A33-8D74-5B3A35D219DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{65148DEA-577B-4D35-9323-963B3C9943D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Package-Template", "src\Package-Template\Package-Template.csproj", "{55EAD44B-F1AA-494D-B362-D98087B3A39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Package-Template.Tests", "tests\Package-Template.Tests\Package-Template.Tests.csproj", "{F3030776-3272-4951-AE3F-8EF9D67B3218}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{176F599D-88E9-4A94-8688-04FF3171B178}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55EAD44B-F1AA-494D-B362-D98087B3A39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EAD44B-F1AA-494D-B362-D98087B3A39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EAD44B-F1AA-494D-B362-D98087B3A39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EAD44B-F1AA-494D-B362-D98087B3A39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3030776-3272-4951-AE3F-8EF9D67B3218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3030776-3272-4951-AE3F-8EF9D67B3218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3030776-3272-4951-AE3F-8EF9D67B3218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3030776-3272-4951-AE3F-8EF9D67B3218}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55EAD44B-F1AA-494D-B362-D98087B3A39F} = {AB386EF5-069F-4A33-8D74-5B3A35D219DC}
+		{F3030776-3272-4951-AE3F-8EF9D67B3218} = {65148DEA-577B-4D35-9323-963B3C9943D0}
+	EndGlobalSection
+EndGlobal
