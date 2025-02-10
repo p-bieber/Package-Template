@@ -20,7 +20,7 @@ jobs:
     
     - name: Rename Files
       env:
-        INFO: ${{ fetch-details.outputs.result }}
+        INFO: ${{ steps.fetch-details.outputs.result }}
       uses: p-bieber/actions/dotnet/rename-template@master
       with:
         template_name: Package-Template
