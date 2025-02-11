@@ -1,6 +1,7 @@
 name: Setup Package-Template
 
 on:
+  push:
   workflow_dispatch:
 
 jobs:
