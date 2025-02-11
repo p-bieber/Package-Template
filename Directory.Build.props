@@ -1,9 +1,10 @@
 <Project>
 	<PropertyGroup>
 
-		<RootNamespace>$(Prefix).$(MSBuildProjectName)</RootNamespace>
+		<Prefix></Prefix>
+		<CleanProjectName>$([System.Text.RegularExpressions.Regex]::Replace($(MSBuildProjectName), '-', ''))</CleanProjectName>
+		<RootNamespace>$(Prefix).$(CleanProjectName)</RootNamespace>
 		
-		<!--PACKAGE-->
 		<PackageId></PackageId>
 		<Authors></Authors>
 		<Description></Description>
